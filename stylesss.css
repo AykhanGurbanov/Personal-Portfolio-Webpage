@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+#navbar {
+    background: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#navbar a:hover {
+    background: #555;
+}
+
+/* Welcome Section */
+#welcome-section {
+    height: 100vh;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#welcome-section h1 {
+    font-size: 3em;
+}
+
+/* Projects Section */
+#projects {
+    padding: 20px;
+    background: #e2e2e2;
+    
+}
+
+.project-tile {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: calc(33% - 40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-tile a {
+    text-decoration: none;
+    color: #333;
+}
+
+.project-tile a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    .project-tile {
+        width: calc(100% - 400px);
+    }
+
+    #navbar {
+        flex-direction: raw;
+    }
+
+    #navbar a {
+        padding: 10px;
+    }
+}
