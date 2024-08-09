@@ -81,7 +81,7 @@ body {
 /* Media Query */
 @media (max-width: 768px) {
     .project-tile {
-        width: calc(100% - 250px);
+        width: calc(100% - 150px);
     }
 
     #navbar {
