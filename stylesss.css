@@ -92,7 +92,10 @@ body {
         padding: 10px;
     }
     iframe{
-        width:100px;
+        width:auto;
+    }
+    img{
+        width:auto;
     }
     
 }
