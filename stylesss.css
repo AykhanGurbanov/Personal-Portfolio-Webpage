@@ -59,8 +59,8 @@ body {
     background: #fff;
     border: 1px solid #ccc;
     display: inline-block;
-    width: calc(33% - 40px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(33% - 30px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .project-tile a {
@@ -81,7 +81,7 @@ body {
 /* Media Query */
 @media (max-width: 768px) {
     .project-tile {
-        width: calc(100% - 150px);
+        width: calc(80% - 150px);
     }
 
     #navbar {
