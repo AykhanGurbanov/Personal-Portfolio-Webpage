@@ -79,23 +79,6 @@ body {
 }
 
 /* Media Query */
-@media (max-width: 768px) {
-    .project-tile {
-        width: calc(100% - 150px);
-    }
-
-    #navbar {
-        flex-direction: raw;
-    }
-
-    #navbar a {
-        padding: 10px;
-    }
-    iframe{
-        width:auto;
-    }
-    img{
-        width:auto;
-    }
+@media (max-width: 600px) {
     
 }
