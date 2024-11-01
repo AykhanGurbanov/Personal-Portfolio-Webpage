@@ -50,6 +50,7 @@ body {
 #projects {
     padding: 20px;
     background: #e2e2e2;
+    overflow: hidden;
     
 }
 
